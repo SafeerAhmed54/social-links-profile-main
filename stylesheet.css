@@ -45,8 +45,77 @@ body {
     text-align: center;
 }
 
+.rol:hover{
+    box-shadow: 5px 10px 0px #B7E62A;
+}
+
 .col{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.img{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 0%);
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.img:hover{
+    border: 2px solid #B7E62A;
+}
+
+.info{
+    padding-bottom: 1rem;
+}
+
+.info h2{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 10px;
+}
+
+.info h2::selection{
+    color: #B7E62A;
+    background-color: transparent;
+}
+
+.info p{
+    color: #B7E62A;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.description p{
+    color: hsl(0, 0%, 100%);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.button-class{
+    padding: 1rem 6rem;
+    border-radius: 0.5rem;
+    background-color: #525252;
+    color: hsl(0, 0%, 100%);
+    font-size: medium;
+    border: none;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button-class:hover{
+    background-color: #B7E62A;
+    color: hsl(0, 0%, 0%);
 }
