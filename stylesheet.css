@@ -121,3 +121,10 @@ body {
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 0%);
 }
+
+@media (max-width:376px) {
+    .rol{
+        width: 23rem;
+        padding: 1rem;
+    }   
+}
